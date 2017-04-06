@@ -1,0 +1,16 @@
+{
+  "name": "teu-school-bus-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "namazu510",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.9.0",
+    "axios": "^0.16.0"
+  }
+}
