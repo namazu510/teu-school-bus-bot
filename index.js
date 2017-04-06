@@ -19,8 +19,8 @@ rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
   // S = 大学 , 0
   // H = 八王子駅 , 2
   // M = みなみ野 , 1
-  StoH = /^行こうか/
-  HtoS = /^帰ろうか/
+  HtoS = /^行こうか/
+  StoH = /^帰ろうか/
   StoM = /^買い出しかな/
   MtoS = /^歩こうか/
 
