@@ -45,6 +45,15 @@ rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
   }
 
   if (from == 0 && to == 0) {
+    var msg = `
+    初めまして,ぼくはラッキービーストだよ.\n
+    スクールバスの時刻が知りたかったら以下を叩いてね.\n
+    "行こうか": 八王子駅南口 => 大学 \n
+    "帰ろうか": 大学　=> 八王子駅南口\n
+    "買い出しかな": 大学 => みなみ野\n
+    "歩こうか": みなみ野 => 大学
+    `
+    rtm.sendMessage(msg, message.channel)
     return
   }
 
